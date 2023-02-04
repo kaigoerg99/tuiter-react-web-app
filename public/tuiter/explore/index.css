@@ -1,0 +1,81 @@
+.wd-sectionA {
+    margin-bottom: 10px;
+}
+.wd-sectionB {
+    display: flex;
+    justify-content: space-between;
+}
+.wd-sectionC {
+    padding-top: 10px;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    font-family: Arial;
+}
+.wd-sectionD {
+    color: white;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+.wd-sectionE {
+    color: rgb(110, 118, 125);
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+.wd-searchBar {
+    width: 95%;
+    color: white;
+    background-color: rgb(47, 51, 54);
+    border-radius: 50px;
+    border-color: rgb(47, 51, 54);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: grey;
+    opacity: 1; /* Firefox */
+}
+.wd-gear {
+    color: rgb(29,161,242);
+    font-size: 30px;
+    position: absolute;
+    right: 12px;
+    text-decoration: none;
+}
+.wd-firstLink {
+    color: rgb(29,161,242);
+    font-family: Arial;
+    font-size: 15px;
+    padding: 16px;
+    border-bottom: solid;
+    border-bottom-color: rgb(29,161,242);
+    border-width: 3px;
+    font-weight: bold;
+}
+.wd-link {
+    color: rgb(110, 118, 125);
+    font-family: Arial;
+    font-size: 15px;
+    padding: 16px;
+    font-weight: bold;
+}
+.wd-suggestedTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.wd-image {
+    position: absolute;
+    right: 16px;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
