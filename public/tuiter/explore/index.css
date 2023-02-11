@@ -1,3 +1,22 @@
+.form-control {
+    border-radius: 50px;
+    border-left: none;
+}
+.input-group-text {
+    border-radius: 50px;
+}
+
+.smallImage {
+    height: 60px;
+    width: 60px;
+}
+
+.mediumImage {
+    height: 100px;
+    width: 100px;
+}
+
+/*
 .wd-sectionA {
     margin-bottom: 10px;
 }
@@ -39,9 +58,9 @@
     padding-bottom: 8px;
     padding-left: 15px;
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder
     color: grey;
-    opacity: 1; /* Firefox */
+    opacity: 1;
 }
 .wd-gear {
     color: rgb(29,161,242);
@@ -79,3 +98,4 @@
     width: 100px;
     border-radius: 15px;
 }
+*/
