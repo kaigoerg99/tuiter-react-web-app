@@ -1,4 +1,4 @@
-import PostSummaryList from "../PostSummaryList.js";
+import PostSummaryList from "../PostSummaryList/index";
 const ExploreComponent = () => {
     return(`
         <div class="d-flex flex-row">
