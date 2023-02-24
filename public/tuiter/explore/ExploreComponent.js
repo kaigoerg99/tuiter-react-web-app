@@ -30,7 +30,7 @@ const ExploreComponent = () => {
                 </li>
             </ul>
             <div class="position-relative">
-                <img class="img-fluid" src="../images/Starship-Mk1-Day.webp"/>
+                <img class="img-fluid" src="../images/"/>
                 <div class="position-absolute bottom-0 start-0 fs-2 text-light fw-bold p-2">SpaceX's Starship</div>
             </div>
             ${PostSummaryList()}
