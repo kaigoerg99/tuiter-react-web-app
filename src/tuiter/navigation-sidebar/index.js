@@ -10,35 +10,35 @@ const NavigationSidebar = (
             <a className="list-group-item">Tuiter</a>
             <a className={`list-group-item
                     ${active === 'home'?'active':''}`}>
-                Home
+                <i className="bi bi-house-door-fill"></i> Home
             </a>
             <a className={`list-group-item
                     ${active === 'explore'?'active':''}`}>
-                Explore
+                <i className="bi bi-hash"></i> Explore
             </a>
             <a className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
-                Notifications
+                <i className="bi bi-bell"></i> Notifications
             </a>
             <a className={`list-group-item
                     ${active === 'messages'?'active':''}`}>
-                Messages
+                <i className="bi bi-envelope"></i> Messages
             </a>
             <a className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`}>
-                Bookmarks
+                <i className="bi bi-bookmark"></i> Bookmarks
             </a>
             <a className={`list-group-item
                     ${active === 'lists'?'active':''}`}>
-                Lists
+                <i className="bi bi-card-list"></i> Lists
             </a>
             <a className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
-                Profile
+                <i className="bi bi-person"></i> Profile
             </a>
             <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
-                More
+                <i className="bi bi-three-dots"></i> More
             </a>
         </div>
     );

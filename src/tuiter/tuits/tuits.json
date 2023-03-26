@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 234,
+    "userName": "SpaceX",
+    "time": "2h",
+    "image": "spacex.jpg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 345,
+    "userName": "Tesla",
+    "time": "4d",
+    "image": "Tesla_T_symbol.svg.png",
+    "liked": false,
+    "replies": 234,
+    "retuits": 543,
+    "likes": 3456,
+    "handle": "@tesla",
+    "tuit": "Autopilot is an advanced driver assistance system that assists your car with steering. You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 456,
+    "userName": "SpaceX",
+    "time": "2h",
+    "image": "spacex.jpg",
+    "liked": false,
+    "replies": 345,
+    "retuits": 321,
+    "likes": 1234,
+    "handle": "@spacex",
+    "tuit": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed. You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  }
+]
