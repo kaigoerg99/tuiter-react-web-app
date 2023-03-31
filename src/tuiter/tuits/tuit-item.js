@@ -1,13 +1,22 @@
 import React from "react";
-import {toggleLiked, deleteTuit} from '../reducers/tuit-stats-reducer';
+import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks";
 import {useDispatch} from "react-redux";
 const TuitItem = ({stat}) => {
     const dispatch = useDispatch();
     const onLiked = (tuit) => {
-        dispatch(toggleLiked(tuit));
+        dispatch(updateTuitThunk({
+            ...tuit,
+            likes: tuit.likes + 1
+        }))
+    }
+    const onDislike = (tuit) => {
+        dispatch(updateTuitThunk({
+            ...tuit,
+            dislikes: tuit.dislikes + 1
+        }))
     }
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return(
         <li className="list-group-item">
@@ -26,6 +35,9 @@ const TuitItem = ({stat}) => {
                         <div className="col"><i className="bi bi-arrow-repeat"></i> {stat.retuits}</div>
                         <div className="col">
                             <i className={stat.liked ? "bi bi-heart-fill text-danger" : "bi bi-heart"} onClick={() => onLiked(stat)}></i> {stat.likes}
+                        </div>
+                        <div className="col">
+                            <i className="bi bi-hand-thumbs-down-fill" onClick={() => onDislike(stat)}></i> {stat.dislikes}
                         </div>
                         <div className="col"><i className="bi bi-share"></i></div>
                     </div>

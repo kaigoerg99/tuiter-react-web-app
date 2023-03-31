@@ -1,4 +1,5 @@
-import {createTuit} from "../reducers/tuit-stats-reducer";
+import {createTuitThunk}
+    from "../../services/tuits-thunks";
 import {useDispatch} from "react-redux";
 import React, {useState} from "react";
 
@@ -9,8 +10,9 @@ const WhatsHappening = () => {
         const newTuit = {
             tuit: whatsHappening
         }
-        dispatch(createTuit(newTuit));
+        dispatch(createTuitThunk(newTuit));
     }
+
     return (
         <div className="row">
             <div className="col-auto">

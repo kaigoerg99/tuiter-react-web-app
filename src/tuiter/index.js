@@ -3,12 +3,12 @@ import Home from './home'
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import whoReducer from './reducers/who-reducer';
-import tuitsReducer from "./tuits/tuits-reducer";
+// import tuitsReducer from "./tuits/tuits-reducer";
 import tuitStatsReducer from "./reducers/tuit-stats-reducer";
 import {configureStore} from "@reduxjs/toolkit";
 import {Provider} from 'react-redux';
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer, stats: tuitStatsReducer}});
+    {reducer: {who: whoReducer, tuitsData: tuitStatsReducer}});
 
 function Tuiter() {
     return (
